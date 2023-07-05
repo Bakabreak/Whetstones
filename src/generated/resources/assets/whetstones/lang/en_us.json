@@ -1,0 +1,18 @@
+{
+  "whetstones.item.wooden_whetstone": "Wooden Whetstone",
+  "whetstones.wooden_whetstone.description": "Restores durability for wooden tools and below",
+  "whetstones.item.stone_whetstone": "Stone Whetstone",
+  "whetstones.stone_whetstone.description": "Restores durability for stone tools and below",
+  "whetstones.item.iron_whetstone": "Iron Whetstone",
+  "whetstones.iron_whetstone.description": "Restores durability for iron tools and below",
+  "whetstones.item.golden_whetstone": "Golden Whetstone",
+  "whetstones.golden_whetstone.description": "Restores durability for golden tools and below",
+  "whetstones.item.diamond_whetstone": "Diamond Whetstone",
+  "whetstones.diamond_whetstone.description": "Restores durability for diamond tools and below",
+  "whetstones.item.netherite_whetstone": "Netherite Whetstone",
+  "whetstones.netherite_whetstone.description": "Restores durability for any tools",
+  "whetstones.item.description.durability": "Durability: %s",
+  "whetstones.item.description.durability.used": "Remaining durability: %s",
+  "whetstones.item_group": "Whetstones",
+  "whetstones": "Whetstones"
+}
