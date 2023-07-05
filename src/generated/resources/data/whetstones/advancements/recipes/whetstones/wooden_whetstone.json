@@ -5,10 +5,10 @@
       "item": "whetstones:wooden_whetstone"
     },
     "title": {
-      "translate": "whetstones.advancement.recipes/misc/wooden_whetstone.title"
+      "translate": "whetstones.advancement.recipes/whetstones/wooden_whetstone.title"
     },
     "description": {
-      "translate": "whetstones.advancement.recipes/misc/wooden_whetstone.description"
+      "translate": "whetstones.advancement.recipes/whetstones/wooden_whetstone.description"
     },
     "frame": "task",
     "show_toast": false,
