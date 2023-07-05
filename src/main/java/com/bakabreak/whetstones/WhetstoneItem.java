@@ -40,10 +40,9 @@ public class WhetstoneItem extends BaseItem {
         if (repairItem.getItem().canBeDepleted() && repairItem.isDamaged() && (!WhetstonesConfig.onlyTools.get() || (repairItem.getItem() instanceof TieredItem && (!WhetstonesConfig.onlyLowerTiers.get() || (this.tier.tier == null || this.tier.tier == ((TieredItem) repairItem.getItem()).getTier() || TierSortingRegistry.getTiersLowerThan(this.tier.tier).contains(((TieredItem) repairItem.getItem()).getTier())))))) {
             int repairAmount = Math.min(repairItem.getDamageValue(), stack.getMaxDamage() / 75);
             repairItem.setDamageValue(repairItem.getDamageValue() - repairAmount);
-            stack.setDamageValue(stack.getDamageValue() + repairAmount);
-            if (stack.getDamageValue() >= stack.getMaxDamage())
-                stack.setCount(0);
-            return ItemUseResult.success(stack);
+            if (!player.isCreative())
+                stack.hurtAndBreak(repairAmount, player, p -> p.broadcastBreakEvent(hand));
+            return ItemUseResult.consume(stack);
         }
         return ItemUseResult.fail(stack);
     }
