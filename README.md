@@ -5,6 +5,9 @@
 
 **Whetstones** allows you to easily repair tools in hand. You can use whetstones by holding a whetstone in one hand and a tool in the other hand, then right-clicking it.
 
+CurseForge: https://www.curseforge.com/minecraft/mc-mods/whetstones  
+Modrinth: https://modrinth.com/mod/whetstones
+
 ---
 
 ### <img width='24' src='https://imgur.com/IV4nmmQ.png' alt='Wooden whetstone'> Wooden Whetstone
