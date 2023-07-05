@@ -2,13 +2,13 @@
   "parent": "minecraft:recipes/root",
   "display": {
     "icon": {
-      "item": "whetstones:netherite_whetstone"
+      "item": "whetstones:golden_whetstone"
     },
     "title": {
-      "translate": "whetstones.advancement.recipes/whetstones/netherite_whetstone.title"
+      "translate": "whetstones.advancement.recipes/misc/golden_whetstone.title"
     },
     "description": {
-      "translate": "whetstones.advancement.recipes/whetstones/netherite_whetstone.description"
+      "translate": "whetstones.advancement.recipes/misc/golden_whetstone.description"
     },
     "frame": "task",
     "show_toast": false,
@@ -19,7 +19,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "whetstones:netherite_whetstone"
+        "recipe": "whetstones:golden_whetstone"
       }
     },
     "recipe_condition": {
@@ -27,7 +27,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "forge:ingots/netherite"
+            "tag": "forge:ingots/gold"
           }
         ]
       }
@@ -41,7 +41,7 @@
   ],
   "rewards": {
     "recipes": [
-      "whetstones:netherite_whetstone"
+      "whetstones:golden_whetstone"
     ]
   }
 }

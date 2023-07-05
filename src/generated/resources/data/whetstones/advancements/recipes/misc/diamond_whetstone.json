@@ -2,13 +2,13 @@
   "parent": "minecraft:recipes/root",
   "display": {
     "icon": {
-      "item": "whetstones:iron_whetstone"
+      "item": "whetstones:diamond_whetstone"
     },
     "title": {
-      "translate": "whetstones.advancement.recipes/whetstones/iron_whetstone.title"
+      "translate": "whetstones.advancement.recipes/misc/diamond_whetstone.title"
     },
     "description": {
-      "translate": "whetstones.advancement.recipes/whetstones/iron_whetstone.description"
+      "translate": "whetstones.advancement.recipes/misc/diamond_whetstone.description"
     },
     "frame": "task",
     "show_toast": false,
@@ -19,7 +19,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "whetstones:iron_whetstone"
+        "recipe": "whetstones:diamond_whetstone"
       }
     },
     "recipe_condition": {
@@ -27,7 +27,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "forge:ingots/iron"
+            "tag": "forge:gems/diamond"
           }
         ]
       }
@@ -41,7 +41,7 @@
   ],
   "rewards": {
     "recipes": [
-      "whetstones:iron_whetstone"
+      "whetstones:diamond_whetstone"
     ]
   }
 }
