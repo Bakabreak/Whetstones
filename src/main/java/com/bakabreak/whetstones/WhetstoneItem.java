@@ -38,7 +38,8 @@ public class WhetstoneItem extends BaseItem {
     public ItemUseResult interact(ItemStack stack, Player player, InteractionHand hand, Level level) {
         ItemStack repairItem = player.getItemInHand(hand == InteractionHand.MAIN_HAND ? InteractionHand.OFF_HAND : InteractionHand.MAIN_HAND);
         if (repairItem.getItem().canBeDepleted() && repairItem.isDamaged() && (!WhetstonesConfig.onlyTools.get() || (repairItem.getItem() instanceof TieredItem && (!WhetstonesConfig.onlyLowerTiers.get() || (this.tier.tier == null || this.tier.tier == ((TieredItem) repairItem.getItem()).getTier() || TierSortingRegistry.getTiersLowerThan(this.tier.tier).contains(((TieredItem) repairItem.getItem()).getTier())))))) {
-            int repairAmount = Math.min(repairItem.getDamageValue(), stack.getMaxDamage() / 75);
+
+            int repairAmount = (int) Math.max(1, Math.min(repairItem.getDamageValue(), stack.getMaxDamage() / 75d));
             repairItem.setDamageValue(repairItem.getDamageValue() - repairAmount);
             if (!player.isCreative())
                 stack.hurtAndBreak(repairAmount, player, p -> p.broadcastBreakEvent(hand));
