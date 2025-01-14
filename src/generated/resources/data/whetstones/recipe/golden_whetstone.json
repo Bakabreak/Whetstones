@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:rods/wooden"
+      "tag": "c:ingots/gold"
     },
     "$": {
       "tag": "minecraft:planks"
     }
   },
   "result": {
-    "id": "whetstones:wooden_whetstone"
+    "id": "whetstones:golden_whetstone"
   }
 }

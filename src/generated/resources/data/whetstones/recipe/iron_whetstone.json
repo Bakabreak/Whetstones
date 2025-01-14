@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "tag": "forge:ingots/netherite"
+      "tag": "c:ingots/iron"
     },
     "$": {
       "tag": "minecraft:planks"
     }
   },
   "result": {
-    "id": "whetstones:netherite_whetstone"
+    "id": "whetstones:iron_whetstone"
   }
 }

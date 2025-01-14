@@ -13,6 +13,6 @@ public class WhetstonesModelGenerator extends ModelGenerator {
     @Override
     public void generate() {
         for (WhetstoneTiers tier : WhetstoneTiers.values())
-            this.itemGenerated(tier.getItem(), new ResourceLocation("whetstones", tier.getIdentifier()));
+            this.itemGenerated(tier.getItem(), ResourceLocation.fromNamespaceAndPath("whetstones", tier.getIdentifier()));
     }
 }
