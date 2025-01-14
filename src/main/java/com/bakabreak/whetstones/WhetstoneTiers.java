@@ -8,29 +8,27 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.Tiers;
+import net.minecraft.world.item.ToolMaterial;
 import net.minecraftforge.common.Tags;
 
-import java.awt.*;
 import java.util.Locale;
 import java.util.function.Supplier;
 
 public enum WhetstoneTiers {
-    WOODEN("Wooden Whetstone", "Restores durability for wooden tools and below", WhetstonesConfig.woodenWhetstoneDurability, Tags.Items.RODS_WOODEN, Tiers.WOOD),
-    STONE("Stone Whetstone", "Restores durability for stone tools and below", WhetstonesConfig.stoneWhetstoneDurability, ItemTags.STONE_CRAFTING_MATERIALS, Tiers.STONE),
-    IRON("Iron Whetstone", "Restores durability for iron tools and below", WhetstonesConfig.ironWhetstoneDurability, Tags.Items.INGOTS_IRON, Tiers.IRON),
-    GOLDEN("Golden Whetstone", "Restores durability for golden tools and below", WhetstonesConfig.goldenWhetstoneDurability, Tags.Items.INGOTS_GOLD, Tiers.GOLD),
-    DIAMOND("Diamond Whetstone", "Restores durability for diamond tools and below", WhetstonesConfig.diamondWhetstoneDurability, Tags.Items.GEMS_DIAMOND, Tiers.DIAMOND),
+    WOODEN("Wooden Whetstone", "Restores durability for wooden tools and below", WhetstonesConfig.woodenWhetstoneDurability, Tags.Items.RODS_WOODEN, ToolMaterial.WOOD),
+    STONE("Stone Whetstone", "Restores durability for stone tools and below", WhetstonesConfig.stoneWhetstoneDurability, ItemTags.STONE_CRAFTING_MATERIALS, ToolMaterial.STONE),
+    IRON("Iron Whetstone", "Restores durability for iron tools and below", WhetstonesConfig.ironWhetstoneDurability, Tags.Items.INGOTS_IRON, ToolMaterial.IRON),
+    GOLDEN("Golden Whetstone", "Restores durability for golden tools and below", WhetstonesConfig.goldenWhetstoneDurability, Tags.Items.INGOTS_GOLD, ToolMaterial.GOLD),
+    DIAMOND("Diamond Whetstone", "Restores durability for diamond tools and below", WhetstonesConfig.diamondWhetstoneDurability, Tags.Items.GEMS_DIAMOND, ToolMaterial.DIAMOND),
     NETHERITE("Netherite Whetstone", "Restores durability for any tools", WhetstonesConfig.netheriteWhetstoneDurability, Tags.Items.INGOTS_NETHERITE, null);
 
     public final String displayName, description;
     private final Supplier<Integer> durability;
     public final TagKey<Item> craftingMaterial;
     private WhetstoneItem item;
-    public final Tier tier;
+    public final ToolMaterial tier;
 
-    WhetstoneTiers(String displayName, String description, Supplier<Integer> durability, TagKey<Item> craftingMaterial, Tier tier) {
+    WhetstoneTiers(String displayName, String description, Supplier<Integer> durability, TagKey<Item> craftingMaterial, ToolMaterial tier) {
         this.displayName = displayName;
         this.description = description;
         this.durability = durability;
@@ -51,8 +49,8 @@ public enum WhetstoneTiers {
         helper.register(this.getIdentifier(), this.item);
     }
 
-    public Component getDescriptionTranslation(){
-        return TextComponents.translation("whetstones." + this.getIdentifier() + ".description").color(ChatFormatting.DARK_GRAY).get();
+    public Component getDescriptionTranslation() {
+        return TextComponents.translation("whetstones." + this.getIdentifier() + ".description").color(ChatFormatting.GRAY).get();
     }
 
     public WhetstoneItem getItem() {

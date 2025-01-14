@@ -18,6 +18,7 @@ public class WhetstonesLanguageGenerator extends LanguageGenerator {
         }
         this.translation("whetstones.item.description.durability", "Durability: %s");
         this.translation("whetstones.item.description.durability.used", "Remaining durability: %s");
+        this.translation("whetstones.item.wrong_tier", "Item tier is too high for this whetstone!");
         this.itemGroup(Whetstones.GROUP, "Whetstones");
     }
 }

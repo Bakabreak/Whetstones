@@ -5,12 +5,8 @@
     "$"
   ],
   "key": {
-    "#": {
-      "tag": "c:ingots/gold"
-    },
-    "$": {
-      "tag": "minecraft:planks"
-    }
+    "#": "#c:ingots/gold",
+    "$": "#minecraft:planks"
   },
   "result": {
     "id": "whetstones:golden_whetstone"

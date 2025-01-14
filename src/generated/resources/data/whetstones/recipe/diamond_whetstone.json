@@ -5,12 +5,8 @@
     "$"
   ],
   "key": {
-    "#": {
-      "tag": "c:gems/diamond"
-    },
-    "$": {
-      "tag": "minecraft:planks"
-    }
+    "#": "#c:gems/diamond",
+    "$": "#minecraft:planks"
   },
   "result": {
     "id": "whetstones:diamond_whetstone"

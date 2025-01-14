@@ -5,12 +5,8 @@
     "$"
   ],
   "key": {
-    "#": {
-      "tag": "c:ingots/netherite"
-    },
-    "$": {
-      "tag": "minecraft:planks"
-    }
+    "#": "#c:ingots/netherite",
+    "$": "#minecraft:planks"
   },
   "result": {
     "id": "whetstones:netherite_whetstone"

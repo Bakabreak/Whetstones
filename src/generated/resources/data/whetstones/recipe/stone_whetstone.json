@@ -5,12 +5,8 @@
     "$"
   ],
   "key": {
-    "#": {
-      "tag": "minecraft:stone_crafting_materials"
-    },
-    "$": {
-      "tag": "minecraft:planks"
-    }
+    "#": "#minecraft:stone_crafting_materials",
+    "$": "#minecraft:planks"
   },
   "result": {
     "id": "whetstones:stone_whetstone"

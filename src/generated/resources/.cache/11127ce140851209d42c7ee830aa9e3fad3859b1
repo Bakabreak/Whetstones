@@ -1,6 +1,6 @@
-// 1.21.1	2025-01-14T02:28:51.3614208	Core Lib Generators
+// 1.21.3	2025-01-14T23:40:06.0465836	Core Lib Generators
 9e1df8cfff3b2fdcb83290ff47e541038b8e1083 assets/minecraft/atlases/blocks.json
-5699942c82e2d8be5ba25685ae65f7b4611b6b37 assets/whetstones/lang/en_us.json
+afef1efebc346a4fe1ad045bf6705afbbb780ea7 assets/whetstones/lang/en_us.json
 fbf3081ca78a9718d91e773d92f4256ff183a3c1 assets/whetstones/models/item/diamond_whetstone.json
 a735286ac0b93df62fa3013d69bb97d4fd8d2e35 assets/whetstones/models/item/golden_whetstone.json
 b096eea2d4bf210e6e978efb203650b0a74fb484 assets/whetstones/models/item/iron_whetstone.json
@@ -13,9 +13,9 @@ b6029d72e7b79d18b79ef2843763dde7deebcdb9 data/whetstones/advancement/recipes/mis
 8b52c41d1169bf84bd50c36b09f94befa7062a14 data/whetstones/advancement/recipes/misc/netherite_whetstone.json
 7a375741ef76fc76c3fa135e66af46878055d433 data/whetstones/advancement/recipes/misc/stone_whetstone.json
 0144e075f21e0d902d5f06417663f188aa3ff126 data/whetstones/advancement/recipes/misc/wooden_whetstone.json
-ce0c2e94e9d33f73f1bff95ac394bd290d45cfd4 data/whetstones/recipe/diamond_whetstone.json
-0efa4fa9b19f8d75736d83b59b20df7769a68f20 data/whetstones/recipe/golden_whetstone.json
-c3c29b760a791d919413eab7723b47e83b050bcf data/whetstones/recipe/iron_whetstone.json
-be6922f62d9321b0612f544f1808c905de218f6e data/whetstones/recipe/netherite_whetstone.json
-210eef3d8902beda6f07fe27f0c85bada4b60042 data/whetstones/recipe/stone_whetstone.json
-03cb26ef0242969648d463e2343c560cbbfd0f22 data/whetstones/recipe/wooden_whetstone.json
+2d48615357334c64096aa9cdc70e565b5382e8b3 data/whetstones/recipe/diamond_whetstone.json
+290a5269988a2a157ac2f5f48ff69bc350e1e004 data/whetstones/recipe/golden_whetstone.json
+3308f10ddc49df44e089cad31899273124a4c48e data/whetstones/recipe/iron_whetstone.json
+b48333d541783541639125ff8322c7b46523a489 data/whetstones/recipe/netherite_whetstone.json
+e351eed903895efde1a8912529a2572a99087c8d data/whetstones/recipe/stone_whetstone.json
+28920d5281f3f2b18988301bba7a5e753bbf5df2 data/whetstones/recipe/wooden_whetstone.json

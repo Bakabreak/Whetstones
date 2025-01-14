@@ -5,12 +5,8 @@
     "$"
   ],
   "key": {
-    "#": {
-      "tag": "c:ingots/iron"
-    },
-    "$": {
-      "tag": "minecraft:planks"
-    }
+    "#": "#c:ingots/iron",
+    "$": "#minecraft:planks"
   },
   "result": {
     "id": "whetstones:iron_whetstone"

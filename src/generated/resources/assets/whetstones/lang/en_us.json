@@ -13,5 +13,6 @@
   "whetstones.netherite_whetstone.description": "Restores durability for any tools",
   "whetstones.item.description.durability": "Durability: %s",
   "whetstones.item.description.durability.used": "Remaining durability: %s",
+  "whetstones.item.wrong_tier": "Item tier is too high for this whetstone!",
   "whetstones.item_group": "Whetstones"
 }
