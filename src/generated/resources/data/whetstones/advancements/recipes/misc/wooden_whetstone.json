@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "display": {
     "icon": {
-      "item": "whetstones:wooden_whetstone"
+      "id": "whetstones:wooden_whetstone"
     },
     "title": {
       "translate": "whetstones.advancement.recipes/misc/wooden_whetstone.title"
@@ -27,7 +27,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "forge:rods/wooden"
+            "items": "#forge:rods/wooden"
           }
         ]
       }

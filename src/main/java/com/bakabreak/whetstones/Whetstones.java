@@ -5,7 +5,6 @@ import com.bakabreak.whetstones.generators.WhetstonesLanguageGenerator;
 import com.bakabreak.whetstones.generators.WhetstonesModelGenerator;
 import com.supermartijn642.core.item.BaseItem;
 import com.supermartijn642.core.item.CreativeItemGroup;
-import com.supermartijn642.core.item.ItemProperties;
 import com.supermartijn642.core.registry.GeneratorRegistrationHandler;
 import com.supermartijn642.core.registry.RegistrationHandler;
 import com.supermartijn642.core.registry.RegistryEntryAcceptor;

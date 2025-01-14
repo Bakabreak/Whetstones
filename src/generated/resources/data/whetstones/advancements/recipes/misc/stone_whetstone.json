@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "display": {
     "icon": {
-      "item": "whetstones:stone_whetstone"
+      "id": "whetstones:stone_whetstone"
     },
     "title": {
       "translate": "whetstones.advancement.recipes/misc/stone_whetstone.title"
@@ -27,7 +27,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "minecraft:stone_crafting_materials"
+            "items": "#minecraft:stone_crafting_materials"
           }
         ]
       }
