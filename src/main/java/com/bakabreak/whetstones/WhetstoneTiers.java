@@ -20,7 +20,7 @@ public enum WhetstoneTiers {
     IRON("Iron Whetstone", "Restores durability for iron tools and below", WhetstonesConfig.ironWhetstoneDurability, Tags.Items.INGOTS_IRON, ToolMaterial.IRON),
     GOLDEN("Golden Whetstone", "Restores durability for golden tools and below", WhetstonesConfig.goldenWhetstoneDurability, Tags.Items.INGOTS_GOLD, ToolMaterial.GOLD),
     DIAMOND("Diamond Whetstone", "Restores durability for diamond tools and below", WhetstonesConfig.diamondWhetstoneDurability, Tags.Items.GEMS_DIAMOND, ToolMaterial.DIAMOND),
-    NETHERITE("Netherite Whetstone", "Restores durability for any tools", WhetstonesConfig.netheriteWhetstoneDurability, Tags.Items.INGOTS_NETHERITE, null);
+    NETHERITE("Netherite Whetstone", "Restores durability for any tools", WhetstonesConfig.netheriteWhetstoneDurability, Tags.Items.INGOTS_NETHERITE, ToolMaterial.NETHERITE);
 
     public final String displayName, description;
     private final Supplier<Integer> durability;

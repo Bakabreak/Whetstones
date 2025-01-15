@@ -1,6 +1,7 @@
 package com.bakabreak.whetstones;
 
 import com.bakabreak.whetstones.generators.WhetstoneRecipeGenerator;
+import com.bakabreak.whetstones.generators.WhetstonesItemInfoGenerator;
 import com.bakabreak.whetstones.generators.WhetstonesLanguageGenerator;
 import com.bakabreak.whetstones.generators.WhetstonesModelGenerator;
 import com.supermartijn642.core.item.BaseItem;
@@ -26,5 +27,6 @@ public class Whetstones {
         generatorHandler.addGenerator(WhetstonesLanguageGenerator::new);
         generatorHandler.addGenerator(WhetstonesModelGenerator::new);
         generatorHandler.addGenerator(WhetstoneRecipeGenerator::new);
+        generatorHandler.addGenerator(WhetstonesItemInfoGenerator::new);
     }
 }
